@@ -3,7 +3,7 @@ pipeline{
 
     tools{
         maven "MAVEN3"
-        jdk " "
+        jdk "OracleJDK"
     }
 
     environment{
@@ -13,7 +13,7 @@ pipeline{
     stages{
         stage ('fetch code'){
             steps{
-                git branch: 'vp-rem', url: 'provide git repo url'
+                git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-project.git'
             }
         }
         stage('Build'){
