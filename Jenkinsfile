@@ -6,10 +6,6 @@ pipeline{
         jdk "OracleJDK"
     }
 
-    environment{
-
-    }
-
     stages{
         stage ('fetch code'){
             steps{
@@ -18,7 +14,7 @@ pipeline{
         }
         stage('Build'){
             steps{
-                sh'mvn install -DskipTests'
+                sh 'mvn install -DskipTests'
             }
             post {
                 success{
