@@ -12,6 +12,8 @@ pipeline{
                 git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-project.git'
             }
         }
+    
+       
         stage('Build'){
             steps{
                 sh 'mvn install -DskipTests'
@@ -60,6 +62,26 @@ pipeline{
                     waitForQualityGate abortPipeline: true
                 }
             }
+        }
+
+        stage("Upload Artifacts"){
+
+            nexusArtifactUploader(
+             nexusVersion: 'nexus3',
+            protocol: 'http',
+            nexusUrl: '172.31.25.7:8081',
+            groupId: 'QA',
+            version: "${env.BUILD_ID}-${env.BUILD_TIMESTAMP}",
+            repository: 'maven-public',
+            credentialsId: 'NexusLogin',
+            artifacts: [
+                [artifactId: 'vproapp',
+                classifier: '',
+                file: 'target/vprofile-v2.war',
+                type: 'war']
+                ]
+             )
+
         }
 
     }
