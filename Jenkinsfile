@@ -72,7 +72,7 @@ pipeline{
             nexusUrl: '172.31.25.7:8081',
             groupId: 'QA',
             version: "${env.BUILD_ID}-${env.BUILD_TIMESTAMP}",
-            repository: 'maven-public',
+            repository: 'maven-releases',
             credentialsId: 'NexusLogin',
             artifacts: [
                 [artifactId: 'vproapp',
