@@ -67,6 +67,7 @@ pipeline {
      }
     
     }
+    
     stage('Upload App Image') {
           steps{
             script {
