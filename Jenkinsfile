@@ -1,35 +1,49 @@
-pipeline {
+pipeline{
     agent any
-    tools {
+
+    tools{
         maven "MAVEN3"
         jdk "OracleJDK"
-	}
-
-    environment {
-        registryCredential = 'ecr:us-east-1:awscredentials'
-        appRegistry = "950478239053.dkr.ecr.us-east-1.amazonaws.com/vprofileappimages"
-        vprofileRegistry = "https://950478239053.dkr.ecr.us-east-1.amazonaws.com"
     }
-    
-  stages {
-    stage ('fetch code'){
+
+    stages{
+        stage ('fetch code'){
             steps{
-                git branch: 'docker', url: 'https://github.com/devopshydclub/vprofile-project.git'
+                git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-project.git'
             }
         }
-      
-    stage('UNIT TEST')  {
+    
+    stage('Check-Git-Secrets'){
+            steps{
+                sh 'docker pull gesellix/trufflehog'
+                sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
+            }
+
+        }
+       
+        stage('Build'){
+            steps{
+                sh 'mvn install -DskipTests'
+            }
+            post {
+                success{
+                    echo "Now Archiving it"
+                    archiveArtifacts artifacts: '**/target/*.war'
+                }
+            }
+        }
+        stage('UNIT TEST')  {
             steps{
                 sh 'mvn test'
             }
         }
-    stage('Checkstyle Analysis'){
+        stage('Checkstyle Analysis'){
             steps{
                 sh 'mvn checkstyle:checkstyle'
             }
         }
 
-    stage('Sonar Analysis') {
+        stage('Sonar Analysis') {
             environment {
                 scannerHome = tool 'Sonar4.7'
             }
@@ -47,7 +61,7 @@ pipeline {
             }
         }
 
-    stage("Quality Gate") {
+        stage("Quality Gate") {
             steps {
                 timeout(time: 1, unit: 'HOURS') {
                     // Parameter indicates whether to set pipeline to UNSTABLE if Quality Gate fails
@@ -57,27 +71,26 @@ pipeline {
             }
         }
 
-    stage('Build App Image') {
-       steps {
-       
-         script {
-                dockerImage = docker.build( appRegistry + ":$BUILD_NUMBER", "./Docker-files/app/multistage/")
-             }
+        stage("Upload Artifacts"){
+            steps {
+            nexusArtifactUploader(
+             nexusVersion: 'nexus3',
+            protocol: 'http',
+            nexusUrl: '172.31.25.7:8081',
+            groupId: 'QA',
+            version: "${env.BUILD_ID}-${env.BUILD_TIMESTAMP}",
+            repository: 'maven-releases',
+            credentialsId: 'NexusLogin',
+            artifacts: [
+                [artifactId: 'vproapp',
+                classifier: '',
+                file: 'target/vprofile-v2.war',
+                type: 'war']
+                ]
+             )
 
-     }
-    
-    }
-    
-    stage('Upload App Image') {
-          steps{
-            script {
-              docker.withRegistry( vprofileRegistry, registryCredential ) {
-                dockerImage.push("$BUILD_NUMBER")
-                dockerImage.push('latest')
-              }
             }
-          }
-     }
+        }
 
-  }
+    }
 }
