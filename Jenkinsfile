@@ -13,15 +13,29 @@ pipeline{
             }
         }
     
-    //stage('Check-Git-Secrets'){
-      //      steps{
+        //stage('Check-Git-Secrets'){
+            //      steps{
                 //sh 'docker pull gesellix/trufflehog'
                 //sh 'rm trufflehog || True'
-        //        sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
-          //      sh 'cat trufflehog'
+             //        sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
+            //      sh 'cat trufflehog'
             //}
 
         //}
+
+        stage('OWASP-Source-Code-Analysis'){
+            steps{
+                sh 'rm owasp* || True'
+                sh 'wget "https://raw.githubusercontent.com/elesumit/DevOps/vprofile_nexus/OWASP-dependency-check.sh" '
+                sh 'chmod +x OWASP-dependency-check.sh'
+                sh 'bash OWASP-dependency-check.sh'
+                
+
+            }
+
+        }
+            
+
         stage('Build'){
             steps{
                 sh 'mvn install -DskipTests'
