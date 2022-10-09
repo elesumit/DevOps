@@ -9,19 +9,19 @@ pipeline{
     stages{
         stage ('fetch code'){
             steps{
-                git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-project.git'
+                git branch: 'vprofile_nexus', url: 'https://github.com/devopshydclub/vprofile-project.git'
             }
         }
     
-    stage('Check-Git-Secrets'){
-            steps{
+    //stage('Check-Git-Secrets'){
+      //      steps{
                 //sh 'docker pull gesellix/trufflehog'
                 //sh 'rm trufflehog || True'
-                sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
-                sh 'cat trufflehog'
-            }
+        //        sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
+          //      sh 'cat trufflehog'
+            //}
 
-        }
+        //}
        
         stage('Build'){
             steps{
