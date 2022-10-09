@@ -13,6 +13,7 @@ pipeline{
             }
         }
     
+        // stage to check the commit for sensitive info - eg: AWS credentials, API tokens are leaking, by using Trufflehog tool (docker imnage)
         stage('Check-Git-Secrets'){
                  steps{
                // sh 'docker pull gesellix/trufflehog'
@@ -23,18 +24,19 @@ pipeline{
 
         }
 
+        // stage to check the 3rd party libraries vulnerabilities using OWASP dependency check tool
         stage('OWASP-Source-Code-Analysis'){
             steps{
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                 sh 'rm owasp* || True'
                 sh 'wget "https://raw.githubusercontent.com/elesumit/DevOps/vprofile_nexus/OWASP-dependency-check.sh" '
                 sh 'chmod +x OWASP-dependency-check.sh'
                 sh 'bash OWASP-dependency-check.sh'
-                
-
+                }
             }
 
         }
-            
+
 
         stage('Build'){
             steps{
