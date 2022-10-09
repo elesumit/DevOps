@@ -25,10 +25,11 @@ pipeline{
         }
 
         // stage to check the 3rd party libraries vulnerabilities using OWASP dependency check tool
+        // added catch block to skip the stage in case of failure 
         stage('OWASP-Source-Code-Analysis'){
             steps{
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                sh 'rm owasp* || True'
+                //sh 'rm owasp* || True'
                 sh 'wget "https://raw.githubusercontent.com/elesumit/DevOps/vprofile_nexus/OWASP-dependency-check.sh" '
                 sh 'chmod +x OWASP-dependency-check.sh'
                 sh 'bash OWASP-dependency-check.sh'
