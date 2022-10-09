@@ -13,15 +13,15 @@ pipeline{
             }
         }
     
-        //stage('Check-Git-Secrets'){
-            //      steps{
-                //sh 'docker pull gesellix/trufflehog'
-                //sh 'rm trufflehog || True'
-             //        sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
-            //      sh 'cat trufflehog'
-            //}
+        stage('Check-Git-Secrets'){
+                 steps{
+               // sh 'docker pull gesellix/trufflehog'
+                sh 'rm trufflehog || True'
+                sh 'docker run -t gesellix/trufflehog --json https://github.com/devopshydclub/vprofile-project.git > trufflehog'
+                sh 'cat trufflehog'
+            }
 
-        //}
+        }
 
         stage('OWASP-Source-Code-Analysis'){
             steps{
