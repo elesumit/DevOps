@@ -1,0 +1,9 @@
+pageName,insuranceType,zipElement,zipCode,quoteButton,expectedText,getQuoteButtonReference
+personalInsurance,Homeowners insurance,homeownersWarning,32771,HomeownersQuoteForm,Find an Agency Near You,personalInsurance1
+personalInsurance,Renters insurance,rentersWarning,32771,RentersQuoteForm,Find an Agency Near You,personalInsurance1
+personalInsurance,Auto insurance,autoWarning,32771,AutoQuoteForm, Smart. This is the fast track.,personalInsurance1
+personalInsurance,Life insurance,,,LifeQuoteForm,Get a No Exam Term Life Insurance Quote,personalInsurance2
+personalInsurance,Pet insurance,,,PetQuoteForm,Tell us about your pet.,personalInsurance2
+personalInsurance,Condo insurance,condoWarning,32771,CondoQuoteForm,Find an Agency Near You,personalInsurance1
+personalInsurance,Motorcycle insurance,motorcycleWarning,32771,MotorcycleQuoteForm,We have an insurance partner in your state,personalInsurance1
+personalInsurance,Auto & home bundle,autohomewarning,32771,AutoAndHomeQuoteForm, Smart. This is the fast track.,personalInsurance1

@@ -1,0 +1,3 @@
+linkText,expectedText,condition
+Auto,Car insurance,DirectLink3
+On Your Side® Review,Stay protected with Nationwide’s On Your Side® Review,ContainsTextLink
