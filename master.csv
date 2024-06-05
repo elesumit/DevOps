@@ -1,0 +1,4 @@
+Scenario,baseURL,URLextension,specname,execution,objType,childCsvPath
+Scenario 1,PROD,personalInsurance,personalInsurance,yes,quote,personalInsurance_quote.csv
+Scenario 2,PROD,personalInsurance,personalInsurance,yes,link,personalInsurance_link.csv
+Scenario 3,PROD,learningCenter,learningCenter,yes,link,learningCenter_link.csv
