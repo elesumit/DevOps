@@ -14,7 +14,7 @@ const getSpecFilesFromCSV = (filePath, callback) => {
                 const { baseURL, URLextension, specname, objType, childCsvPath } = row;
 
                 specs.push({
-                    spec: `cypress/e2e/prod-regression-specs/${specname}.cy.js`,
+                    spec: `cypress/e2e/POC/${specname}.cy.js`,
                     childCsvPath: childCsvPath,
                     objType: objType,
                     URLextension: URLextension,
