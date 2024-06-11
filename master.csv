@@ -1,4 +1,24 @@
 Scenario,baseURL,URLextension,specname,execution,objType,childCsvPath
-Scenario 1,PROD,personalInsurance,personalInsurance,yes,quote,personalInsurance_quote.csv
-Scenario 2,PROD,personalInsurance,personalInsurance,yes,link,personalInsurance_link.csv
-Scenario 3,PROD,learningCenter,learningCenter,yes,link,learningCenter_link.csv
+Scenario 1,PROD,personalInsurance,spec 1,no,quote,personalInsurance_quote.csv
+Scenario 2,PROD,personalInsurance,spec 2,no,link,personalInsurance_link.csv
+Scenario 3,https://www.nationwide.com,lc/resources/,learningCenter,yes,link,learningCenter_link.csv
+Scenario 4,PROD,agribusiness,spec 4,no,link,agribusinessPage_link.csv
+Scenario 5,PROD,animalSafety,sepc 5,no,link,animalSafetyPage_link.csv
+Scenario 6,PROD,retirementPlans,spec 6,no,link,retirementPlans_link.csv
+Scenario 7,PROD,smartRide,spec 7,no,link,smartRide_link.csv
+Scenario 8,PROD,annualReport,spec 8,no,link,annualReport_link.csv
+Scenario 9,PROD,annuities,spec 9,no,link,annuities_link.csv
+Scenario 10,PROD,businessInsurance,spec 10,no,link,businessInsurance_link.csv
+Scenario 11,PROD,fundList,spec 11,no,link,fundListPage_link.csv
+Scenario 12,PROD,business,spec 12,no,link,business_link.csv
+Scenario 13,PROD,personalClaims,spec 13,no,link,claimPage_link.csv
+Scenario 14,PROD,sem,spec 14,no,link,semSmoke_link.csv
+Scenario 15,PROD,powerSports,spec 15,no,link,powerSports_link.csv
+Scenario 16,PROD,accLogin,spec 16,no,link,accountLogin_link.csv
+Scenario 17,PROD,billPay,sepc 17,no,link,billPay_link.csv
+Scenario 18,PROD,landingPage,spec 18,no,link,landingPage_link.csv
+Scenario 19,PROD,personalAuto,spec 19,no,link,personalAuto_link.csv
+Scenario 20,PROD,landingPage,Spec 20,no,quote,landingPage_quote.csv
+Scenario 21,PROD,contact,spec 21,no,link,contactPage_link.csv
+Scenario 22,PROD,personalAuto,spec 22,no,quote,personalAuto_quote.csv
+Scenario 23,PROD,landingPage,spec 23,no,link,landingPage_header.csv

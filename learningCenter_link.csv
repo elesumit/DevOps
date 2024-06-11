@@ -1,0 +1,9 @@
+linkText,expectedText,condition
+Take a tour of our self-help videos.,An online account makes life so much easier ,DirectLink
+Auto,Auto insurance resources,ContainsTextLink
+Home,Home insurance resources,ContainsTextLink
+Small business,Small business insurance resources,ContainsTextLink
+Beginning your journey,Beginning your journey,ContainsTextLink
+Nurturing your family,Nurturing your family,ContainsTextLink
+Driving safety tips,Driving safety tips every responsible driver should know,DirectLink
+Insurance FAQs,Auto and property insurance FAQ,DirectLink
