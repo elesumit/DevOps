@@ -1,0 +1,9 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Take a tour of our self-help videos.,https://www.nationwide.com/personal/insurance/member-resources/online-access/?utm_source=lc&utm_medium=banner&utm_campaign=ss,Online Insurance Account Access – Nationwide,DirectLink
+master,Auto,https://www.nationwide.com/lc/resources/auto-insurance/,Auto Insurance Articles and Resources – Nationwide,ContainsTextLink
+master,Home,https://www.nationwide.com/lc/resources/home/,Homeowners and Renters Insurance Resources – Nationwide,ContainsTextLink
+master,Small business,https://www.nationwide.com/lc/resources/small-business/,Small Business Insurance Resources and Tips – Nationwide,ContainsTextLink
+master,Beginning your journey,https://www.nationwide.com/lc/resources/beginning-your-journey/,Resources for new beginnings - Nationwide,ContainsTextLink
+master,Nurturing your family,https://www.nationwide.com/lc/resources/nurturing-your-family/,Resources for nurturing a family - Nationwide,ContainsTextLink
+master,Driving safety tips,https://www.nationwide.com/lc/resources/auto-insurance/articles/driving-safety-tips,Driving Safety Tips - Nationwide,DirectLink
+master,Insurance FAQs,https://www.nationwide.com/personal/insurance/member-resources/insurance-faq/,Online Account Management FAQ – Nationwide,DirectLink
