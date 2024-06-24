@@ -1,0 +1,5 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate  Annuities link,yes,Annuities,Annuities,no,Annuities
+Validate A link,yes,A,Buyer's guide for deferred annuities,no,A
+Validate F link,yes,F,Buyer's guide for deferred annuities,no,F
+  

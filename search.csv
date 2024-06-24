@@ -1,0 +1,4 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate   Log in to Agent Center link,yes, Log in to Agent Center ,Login,yes, Log in to Agent Center 
+Validate  Get a quote for a new vehicle link,yes, Get a quote for a new vehicle ,Quick Add Vehicle,yes, Get a quote for a new vehicle 
+ 
