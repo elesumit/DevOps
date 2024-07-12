@@ -1,0 +1,12 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,log in,https://uat.nationwide.com/my-account-login,Account Login - Personal and Business - Nationwide,DirectLink
+master,talk to a specialist,https://uat.nationwide.com/personal/investing/find-financial-professional/,Find a Financial Specialist – Nationwide,DirectLink
+master,Variable,https://uat.nationwide.com/personal/investing/annuities/variable/,Variable Annuities – Nationwide,ContainsTextLink
+master,Registered index-linked,https://uat.nationwide.com/personal/investing/annuities/registered-index-linked/,Registered Index-Linked Annuities – Nationwide,ContainsTextLink
+master,Fixed indexed,https://uat.nationwide.com/personal/investing/annuities/fixed-indexed/,Fixed Indexed Annuities – Nationwide,TextLink
+master,Fixed,https://uat.nationwide.com/personal/investing/annuities/fixed/,Fixed Annuities – Nationwide,TextLink
+master,Immediate,https://uat.nationwide.com/personal/investing/annuities/immediate/,Immediate Annuities – Nationwide,ContainsTextLink
+master,Access your annuity,https://login.nationwide.com/access/web/login.htm?loginType=annuity,
+master,See benefits of online access,https://uat.nationwide.com/personal/investing/annuities/online-access-benefits/,Online Annuity Account Access – Nationwide,DirectLink
+master,What is an annuity?,https://uat.nationwide.com/lc/resources/investing-and-retirement/articles/what-is-an-annuity,What is an Annuity? - Nationwide,DirectLink
+master,What do annuities cost?,https://uat.nationwide.com/lc/resources/investing-and-retirement/articles/annuity-prices,How Much Does an Annuity Cost? - Nationwide,ParentLink2

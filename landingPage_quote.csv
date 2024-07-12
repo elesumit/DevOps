@@ -1,0 +1,4 @@
+specName,pageName,dropdownMenu,insuranceType,zipElement,zipCode,quoteButton,expectedURL,expectedTitle,getQuoteButtonReference
+master,landingPage,customSelectQuote,Auto & home bundle,tel,32773,,https://uat.nationwide.com/personal/bulletin/online-quotes-not-available-florida?state=FL&stateName=Florida&productType=Auto&productType=Homeowner&zipCode=32773&unsupportedFlag=true&quoteType=initiateQuote&utm_source=direct,Online Quotes Not Available in Florida – Nationwide,landingPage
+master,landingPage,customSelectQuote,Business,,,,https://uat.nationwide.com/cp/biz-quote.html,Nationwide | Business Insurance Quote,landingPage
+master,landingPage,customSelectQuote,Homeowners,tel,32773,,https://uat.nationwide.com/personal/bulletin/online-quotes-not-available-florida?state=FL&stateName=Florida&productType=Homeowner&zipCode=32773&unsupportedFlag=true&quoteType=initiateQuote&utm_source=direct,Online Quotes Not Available in Florida – Nationwide,landingPage

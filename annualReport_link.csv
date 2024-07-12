@@ -1,0 +1,6 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Learn more,https://uat.nationwide.com/cps/annual-report/standout-stories/technology-and-innovation.html,equal housing opportunity insurer logo,DirectLink
+master,Learn more,https://uat.nationwide.com/cps/annual-report/standout-stories/protecting-clients.html,equal housing opportunity insurer logo,DirectLink2
+master,Learn more,https://uat.nationwide.com/cps/annual-report/standout-stories/community-involvement.html,Standout stories — Community involvement — 2023 Nationwide Annual Report,DirectLink3
+master,Corporate sustainability,https://uat.nationwide.com/cps/annual-report/corporate-sustainability.html,Corporate Sustainability — Nationwide 2023 Annual Report,DirectLink
+master,Our culture,https://uat.nationwide.com/cps/annual-report/culture.html,Our culture — 2023 Nationwide Annual Report ,DirectLink

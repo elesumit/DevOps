@@ -1,0 +1,9 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Start your quote,https://nationwidecommercial.boldpenguin.com/nationwide?utm_source=na&utm_medium=na&utm_campaign=na&utm_content=https:%2F%2Fuat.nationwide.com%2Fbusiness%2F,Nationwide Brokerage Insurance Quote,DirectLink
+master,Find a business agent,https://agency.nationwide.com/search,Find an Insurance Agent Near You - Nationwide,DirectLink
+master,Find a farm agent,https://uat.farmagentfinder.com/home/index?_ga=2.75625557.1731350872.1718336327-1378945627.1718336327&_gl=1*1h8wck5*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODQyNjY5NC42LjEuMTcxODQyNjkyNS41NS4wLjA.,Farm Agent Finder - Nationwide Agribusiness,DirectLink2
+master,See partner solutions,https://uat.nationwide.com/personal/insurance/member-resources/perks?utm_campaign=psp&utm_source=nwcom&utm_medium=banner&utm_content=bizhomepage&utm_term=na,Nationwide Perks,DirectLink
+master,Business solutions center,https://uat.nationwide.com/business/solutions-center/,Business Solutions Center - Nationwide,NormalizeTextLink
+master,Insurance resources for small business,https://uat.nationwide.com/lc/resources/small-business/?utm_source=nwbusiness&utm_medium=referral&utm_content=sblc&utm_campaign=bizhomepage,Small Business Insurance Resources and Tips – Nationwide,NormalizeTextLink
+master,Telematics solutions for your farm or agribusiness,https://uat.nationwide.com/lc/resources/farm-and-agribusiness/articles/agriculture-farm-telematics,Discounted Telematics Solutions for Farms and Agribusinesses – Nationwide,NormalizeTextLink
+master,Member resources,https://uat.nationwide.com/business/insurance/member-resources,Learn how to manage your business account online – Nationwide,DirectLink

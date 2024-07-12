@@ -1,0 +1,14 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,File a claim,https://claimsservicing.nationwide.com/fileclaim/info/claim-process-intro,Introduction,DirectLink
+master,File a business insurance claim,https://uat.nationwide.com/business/insurance/claims/,Business Insurance Claims Center – Nationwide,DirectLink
+master,File a claim now,https://claimsservicing.nationwide.com/fileclaim/info/claim-process-intro,Introduction,DirectLink
+master,Check the status,https://claimsselfservice.nationwide.com/claims/index.html#/express-login,Track Your Claim,DirectLink
+master,Auto,https://uat.nationwide.com/personal/insurance/claims/auto/,File an Auto Insurance Claim – Nationwide,DirectLink3
+master,Life & Annuity,https://uat.nationwide.com/personal/insurance/claims/life/,File Annuity and Life Insurance Claims – Nationwide,DirectLink
+master,Business,https://uat.nationwide.com/business/insurance/claims/,Business Insurance Claims Center – Nationwide,DirectLink
+master,master,Boat & Watercraft,https://uat.nationwide.com/personal/insurance/claims/boat/,File a Boat Insurance Claim – Nationwide,DirectLink
+master,Pet,https://uat.petinsurance.com/submit-claim/?_gl=1*1nrc86i*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4LjE3MDc1Mjc3Ny4xNzE4NDI4NDY0LjE3MTg0Mjg0NjQ.*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODQzNDM0NS43LjEuMTcxODQzNzE2MS4zNS4wLjA.,Nationwide® Pet Insurance | Submit a Claim & Find Forms in 3 Steps,DirectLink
+master,Harleysville,https://uat.nationwide.com/personal/insurance/claims/harleysville/,File a Harleysville Insurance Claim – Nationwide,DirectLink
+master,Claims FAQ,https://uat.nationwide.com/personal/insurance/claims/faq/,Insurance Claims FAQ – Nationwide,ParentLink
+master,Find a repair shop,https://claimsservicing.nationwide.com/find-repair-shop,Find Repair Shop,ParentLink
+master,Disaster prep,https://uat.nationwide.com/lc/resources/emergency-preparedness/,Preparing for a natural disaster – Nationwide,ParentLink

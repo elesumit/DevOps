@@ -1,0 +1,17 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Start your quote,https://nationwidecommercial.boldpenguin.com/nationwide?utm_source=na&utm_medium=na&utm_campaign=na&utm_content=https:%2F%2Fuat.nationwide.com%2Fbusiness%2Finsurance%2F%23,Nationwide Brokerage Insurance Quote,DirectLink
+master,Find a business agent,https://agency.nationwide.com/,Find Independent Insurance Companies Near You - Nationwide,DirectLink
+master,Get a BOP quote,https://uat.nationwide.com/business/insurance/business-owners-policy-bop/,Business Owners Policy (BOP Insurance) - Nationwide,DirectLink
+master,master,Start your business liability quote,https://uat.nationwide.com/business/insurance/small-business-liability/,General Liability Insurance – Nationwide,DirectLink
+master,Get a commercial property insurance quote,https://uat.nationwide.com/business/insurance/property/,Commercial Property Insurance - Nationwide,DirectLink
+master,Begin your commercial auto insurance quote,https://uat.nationwide.com/business/insurance/auto/,Commercial Auto Insurance – Request a Quote – Nationwide,DirectLink
+master,Workers' compensation,https://uat.nationwide.com/business/insurance/workers-compensation/,Workers’ Compensation Insurance – Nationwide,DirectLink
+master,Business income,https://uat.nationwide.com/business/insurance/business-income/,Business Income Insurance – Nationwide,DirectLink
+master,master,Crime insurance,https://uat.nationwide.com/business/insurance/commercial-crime/,Commercial Crime Insurance - Nationwide,DirectLink
+master,master,Employment practices liability,https://uat.nationwide.com/business/insurance/small-business-liability/,General Liability Insurance – Nationwide,DirectLink
+master,Cyber liability,https://uat.nationwide.com/business/insurance/cyber-liability/,Cyber Liability & Data Breach Insurance – Nationwide,DirectLink
+master,Errors and omissions (E&O),https://uat.nationwide.com/business/insurance/errors-and-omissions/,Errors and Omissions Insurance (E&O) – Nationwide,DirectLink
+master,Equipment breakdown,https://uat.nationwide.com/business/insurance/equipment-breakdown/,Equipment Breakdown Coverage – Nationwide,DirectLink
+master,Umbrella insurance,https://uat.nationwide.com/business/insurance/umbrella-policy/,Commercial Umbrella Liability Insurance from Nationwide,DirectLink
+master,Inland marine,https://uat.nationwide.com/business/insurance/inland-marine/,Inland Marine Insurance – Nationwide,DirectLink
+master,Builder's risk,https://uat.nationwide.com/business/insurance/builders-risk/,Get Builder’s Risk Insurance - Nationwide,DirectLink

@@ -1,0 +1,11 @@
+Scenario,execution,links,elementtext,zip,expectetext,
+Validate links on sem page,yes,Auto & Property:Auto:Homeowners:Renter:Business:Life:Motorcycle:Condo:Pet:Travel:ATV:Scooter:Snowmobile:Classic car:RV:Boat:Personal watercraft:Umbrella:ID theft:Dental,,,,
+Validate Quote generation on sem page,no,Auto & Property,AutoAndHomeQuoteForm,32771,Smart. This is the fast track. Let’s get started,
+
+
+pageName,insuranceType,zipElement,zipCode,quoteButton,expectedText,getQuoteButtonReference
+sem,Auto & Property,AutoAndHomeQuoteForm,32771,HomeownersQuoteForm,Find an Agency Near You,semPage
+
+
+pageName,insuranceType,zipElement,zipCode,quoteButton,expectedText,getQuoteButtonReference
+personalInsurance,Homeowners insurance,homeownersWarning,32771,HomeownersQuoteForm,Find an Agency Near You,personalInsurance1

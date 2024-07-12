@@ -1,0 +1,10 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,talk to a specialist,https://uat.nationwide.com/personal/investing/find-financial-professional/,Find a Financial Specialist – Nationwide,DirectLink
+master,as a financial professional,https://nationwidefinancial.com/products/investments/mutual-funds,Mutual Fund Products for Financial Professionals - Nationwide,DirectLink
+master,institutional investors,https://nationwidefinancial.com/institutional-investors,Nationwide Investment Solutions - for Institutional Investors,DirectLink
+master,NVIT Allspring Discovery Fund,https://uat.nationwide.com/holdings/nvit-funds/all-holdings-portfolio-id-4726.html, NVIT Allspring Discovery Fund Holdings | Nationwide,DirectLink
+master,NVIT American Funds Asset Allocation Fun,https://uat.nationwide.com/holdings/nvit-funds/all-holdings-portfolio-id-2952.html,NVIT American Funds Asset Allocation Fund | Nationwide,DirectLink
+master,NVIT American Funds Bond Fund,https://uat.nationwide.com/holdings/nvit-funds/all-holdings-portfolio-id-2953.html,NVIT American Funds Bond Fund | Nationwide,DirectLink
+master,Learn more about variable annuities.,https://uat.nationwide.com/personal/investing/annuities/variable/,Variable Annuities – Nationwide,DirectLink
+master,Learn more about variable life insurance.,https://uat.nationwide.com/personal/insurance/life/variable/,Variable Life Insurance– Nationwide ,DirectLink
+master,talk to a specialist,https://uat.nationwide.com/personal/investing/find-financial-professional/,Find a Financial Specialist – Nationwide,DirectLink

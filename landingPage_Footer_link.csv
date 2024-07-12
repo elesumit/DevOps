@@ -1,0 +1,17 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,About us,https://uat.nationwide.com/personal/about-us/,About Us - Nationwide,DirectLink
+master,For agents,https://uat.nationwide.com/agents/,Resources for Independent Insurance Agents - Nationwide,DirectLink
+master,Careers,https://uat.nationwide.com/personal/about-us/careers/,Explore Insurance Careers – Nationwide,DirectLink
+master,Help center,https://uat.nationwide.com/personal/contact/?=&referrerPageUrl=https%3A%2F%2Fuat.nationwide.com%2F&query=,Help Center Resources and Contact Information - Nationwide,DirectLink
+master,Now From Nationwide® Blog,https://blog.nationwide.com/,Now from Nationwide ®,DirectLink
+master,En Español,https://espanol.nationwide.com/,Compañía de servicios financieros y seguros – Nationwide,DirectLink
+master,Financial professional & investment firm,https://uat.nationwide.com/financial-professionals/,Financial professional resources and solutions by Nationwide ,DirectLink
+master,Institutional investors,https://nationwidefinancial.com/institutional-investors,Nationwide Investment Solutions - for Institutional Investors,DirectLink
+master,Employer/plan sponsor,https://myplan.nwservicecenter.com/iApp/isc/cmd/Login,Investor Service Center - Login for Plan Sponsors,DirectLink
+master,Pension administrator,https://pas.nwservicecenter.com/iApp/pas/welcome.action,Plan Administration Services,DirectLink
+master,Partners & developers,https://developer.nationwide.com/partnership,Nationwide Partnership Portal,DirectLink
+master,Privacy,https://uat.nationwide.com/personal/privacy-security/,Online Privacy and Security Policy for Nationwide.com,DirectLink
+master,Cyber security,https://uat.nationwide.com/personal/cyber-security/,Cybersecurity: Report a Vulnerability - Nationwide,DirectLink
+master,California Consumer Privacy Act,https://uat.nationwide.com/personal/privacy-security/pages/privacy#california,Consumer Privacy Policy - Nationwide,DirectLink
+master,Accessibility,https://uat.nationwide.com/personal/about-us/website-accessibility,Website Accessibility for Nationwide,DirectLink
+master,Terms and conditions,https://uat.nationwide.com/personal/about-us/terms-conditions,Terms and Conditions for Nationwide.com,DirectLink

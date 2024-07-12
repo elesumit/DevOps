@@ -1,0 +1,9 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Enroll in my plan,https://customer-login.nationwide.com/registration/search/personal/individual-information,Nationwide Online Account Access | Sign Up For Online Access | Nationwide.com,DirectLink
+master,Sign up,https://customer-login.nationwide.com/registration/search/personal/individual-information,Nationwide Online Account Access | Sign Up For Online Access | Nationwide.com,DirectLink
+master,Log into your account,https://uat.nationwide.com/my-account-login,Account Login - Personal and Business - Nationwide,DirectLink
+master,Financial goals in 2024,https://uat.nationwide.com/personal/investing/retirement-plans/articles/healthy-savings-habits,Retirement Plans – Ways to build healthy savings habits – Nationwide,DirectLink
+master,Sign up for a webinar,https://uat.nationwide.com/personal/investing/retirement-plans/webinars,Retirement Planning Webinars – Nationwide,DirectLink
+master,I'm just getting started,https://uat.nationwide.com/personal/investing/retirement-plans/getting-started/,Retirement Planning – Just Getting Started – Nationwide,DirectLink
+master,Learn more ,https://uat.nationwide.com/personal/investing/retirement-plans/articles/healthy-savings-habits,Retirement Plans – Ways to build healthy savings habits – Nationwide,DirectLink
+master,Get the iPhone app,https://apps.apple.com/us/app/realtirement-by-nationwide/id1586385655,REALtirement by Nationwide on the App Store,DirectLink

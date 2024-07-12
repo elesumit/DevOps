@@ -1,0 +1,35 @@
+Scenario,baseURL,URLextension,specname,execution,objType,childCsvPath
+UAT,https://uat.nationwide.com,personal/insurance/,master,no,quote,personalInsurance_quote.csv
+UAT,https://uat.nationwide.com,personal/insurance/,master,no,link,personalInsurance_link.csv
+UAT,https://uat.nationwide.com,lc/resources/,master,no,link,learningCenter_link.csv
+UAT,https://uat.nationwide.com,business/agribusiness/farm-bureau/delaware.html,master,no,link,agribusinessPage_link.csv
+UAT,https://uat.nationwide.com,lc/resources/home/articles/animal-safety,master,no,link,animalSafetyPage_link.csv
+UAT,https://uat.nationwide.com,personal/investing/retirement-plans/,master,no,link,retirementPlans_link.csv
+UAT,https://uat.nationwide.com,personal/insurance/auto/discounts/smartride/,master,no,link,smartRide_link.csv
+UAT,https://uat.nationwide.com,cps/annual-report/index.html,master,no,link,annualReport_link.csv
+UAT,https://uat.nationwide.com,personal/investing/annuities/,master,no,link,annuities_link.csv
+UAT,https://uat.nationwide.com,business/insurance/,master,no,link,businessInsurance_link.csv
+UAT,https://uat.nationwide.com,personal/investing/mutual-funds/fund-list/,master,no,link,fundListPage_link.csv
+UAT,https://uat.nationwide.com,business,master,no,link,business_link.csv
+UAT,https://uat.nationwide.com,personal/insurance/claims,master,no,link,claimPage_link.csv
+UAT,https://uat.nationwide.com,sem/brand-b3-pey.html,master,no,link,semSmoke_link.csv
+UAT,https://uat.nationwide.com,lc/resources/powersports/,master,no,link,powerSports_link.csv
+UAT,https://uat.nationwide.com,account-login,master,yes,link,accountLogin_link.csv
+UAT,https://uat.nationwide.com,bill-pay,master,yes,link,billPay_link.csv
+UAT,https://uat.nationwide.com,,master,yes,link,landingPage_link.csv
+UAT,https://uat.nationwide.com,personal/insurance/auto/,master,yes,link,personalAuto_link.csv
+UAT,https://uat.nationwide.com,,master,yes,quote,landingPage_quote.csv
+UAT,https://uat.nationwide.com,personal/contact/,master,yes,link,contactPage_link.csv
+UAT,https://uat.nationwide.com,personal/insurance/auto/,master,yes,quote,personalAuto_quote.csv
+UAT,https://uat.nationwide.com,,master,yes,link,landingPage_Footer_link.csv
+UAT,https://uat.nationwide.com,,master,yes,link,landingPage_header_link.csv
+UAT, https://uat.nationwide.com,personal/investing/mutual-funds/nvit-funds/,master,yes,link,nvitMutualFundPage_link.csv
+UAT, https://uat.nationwide.com,searchresults/personal/result?query=insurance,master,yes,link,search_link.csv
+UAT, https://uat.nationwide.com,,quoteRetrieval,no,link,quoteRetrieval
+UAT, https://uat.nationwide.com,,accountLoginPage,no,link,accountLoginPage
+UAT, https://uat.nationwide.com,,allProducts,no,link,allProducts
+UAT, https://uat.nationwide.com,,billPayPage,no,link,billPayPage
+UAT, https://uat.nationwide.com,,brokenLinks_Health,no,link,brokenLinks_Health
+UAT, https://uat.nationwide.com,,landingPage,no,link,landingPage
+UAT, https://uat.nationwide.com,,nvitMutualFundPage,no,link,nvitMutualFundPage
+UAT, https://uat.nationwide.com,,semPage,no,link,semPage

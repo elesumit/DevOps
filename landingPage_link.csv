@@ -1,12 +1,11 @@
-linkText,expectedURL,expectedTitle,condition
-Learn more,An online account makes life so much easier,DirectLink
-Start quote,Get a No Exam Term Life Insurance Quote,DirectLink
-Personal insurance,Popular types of insurance,DirectLink
-Business insurance,We’re here to support you,DirectLink
-Investing & retirement,Financial options,DirectLink
-Member resource guide,An online account makes insurance easy,DirectLink
-The importance of long-term care,Long-term care coverage,NormalizeTextLink
-Protect your small business ,From cybersecurity advice to social media guides, our business solutions,NormalizeTextLink
-Bundle home & auto and save up to $646 in just 2 minutes,Bundle insurance and save money,NormalizeTextLink
-Easy access to manage your insurance online,Log in to your account,NormalizeTextLink
-See what we offer for businesses.,We’re here to support you,DirectLink
+specName,linkText,expectedURL,expectedTitle,condition
+master,Start quote,https://lifeessentials.nationwide.com/,No Exam Life Insurance Quote - Nationwide,DirectLink
+master,Personal insurance,https://uat.nationwide.com/personal/insurance/,Home, Auto and Other Types of Insurance - Nationwide ,DirectLink
+master,Business insurance,https://uat.nationwide.com/business/,Commercial Insurance: Get a Custom Quote - Nationwide,DirectLink
+master,Investing & retirement,https://uat.nationwide.com/personal/investing/,Investing & Retirement Solutions from Nationwide,DirectLink
+master,Member resource guide,https://uat.nationwide.com/personal/insurance/member-resources/,Member Resource Guide to Services & Benefits – Nationwide,DirectLink
+master,The importance of long-term care,https://uat.nationwide.com/personal/insurance/life/long-term-care/,Long-Term Care Coverage — Nationwide,NormalizeTextLink
+master,Protect your small business ,https://uat.nationwide.com/business/solutions-center/,Business Solutions Center - Nationwide,NormalizeTextLink
+master,Bundle home & auto and save up to $646 in just 2 minutes,Bundle insurance and save money,https://uat.nationwide.com/personal/insurance/auto/discounts/types/multi-policy,Home and Auto Insurance – Nationwide,NormalizeTextLink
+master,Easy access to manage your insurance online,https://uat.nationwide.com/my-account-login,Account Login - Personal and Business - Nationwide,NormalizeTextLink
+master,See what we offer for businesses.,https://uat.nationwide.com/business/,Commercial Insurance: Get a Custom Quote - Nationwide,DirectLink

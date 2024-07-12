@@ -1,0 +1,4 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Pay a bill,https://uat.nationwide.com/personal/member-services/pay-bill,Pay Personal Insurance Bills Online  – Nationwide,NormalizeTextLink
+master,Get ID card,https://policyservicing.nationwide.com/#/quick/login/add-vehicle,Personal Policy | Nationwide Online,NormalizeTextLink
+master,log in or sign up,https://uat.nationwide.com/my-account-login,Account Login - Personal and Business - Nationwide,NormalizeTextLink

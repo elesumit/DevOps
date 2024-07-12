@@ -1,0 +1,5 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Insurance professionals,https://uat.nationwide.com/agents/,Resources for Independent Insurance Agents - Nationwide,DirectLink
+master,Financial professionals,https://uat.nationwide.com/financial-professionals/,Financial professional resources and solutions by Nationwide ,DirectLink
+master,Enterprise partners,https://developer.nationwide.com/partnership,Nationwide Partnership Portal,DirectLink
+master,Career seekershttps://uat.nationwide.com/personal/about-us/careers/,Explore Insurance Careers – Nationwide,DirectLink

@@ -1,0 +1,3 @@
+pageName,dropdownMenu,insuranceType,zipElement,zipCode,quoteButton,expectedText,getQuoteButtonReference
+personalAuto,selectQuoteForm,Auto insurance,AutoQuoteForm,32773,AutoQuoteForm,Smart. This is the fast track. Let’s get started,personalAuto
+personalAuto,selectQuoteForm,Auto & home bundle,AutoAndHomeQuoteForm,32773,AutoAndHomeQuoteForm,Smart. This is the fast track. Let’s get started,personalAuto

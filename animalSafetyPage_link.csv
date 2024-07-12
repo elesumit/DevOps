@@ -1,0 +1,5 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Start your quote,https://qec2.petinsurance.com/quote1?OM=FR0037&_gl=1*qjs33u*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODQxMjI0MS41LjEuMTcxODQxMzMyMi42MC4wLjA.,Pet Insurance Quotes | Nationwide | Get a Pet Insurance Quote Now,DirectLink
+master,Nationwide pet insurance,https://uat.petinsurance.com/?OM=FR0037&_gl=1*w1td5n*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODQxMjI0MS41LjEuMTcxODQxMzU3My42MC4wLjA.,Pet Insurance by Nationwide® | America's Best Pet & Vet Insurance ,DirectLink
+master,get a quote today,https://qec.petinsurance.com/quote1?OM=FR0037&_gl=1*148tg2y*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODQxMjI0MS41LjEuMTcxODQxMzY1MC42MC4wLjA.,Nationwide Pet Dog Insurance, Cat Insurance, Pet Health Insurance,DirectLink
+master,Is hazard insurance the same as homeowners?,https://uat.nationwide.com/lc/resources/home/articles/is-hazard-insurance-the-same-as-homeowners-insurance,Is Hazard Insurance the Same as Homeowners Insurance? - Nationwide,ParentLink

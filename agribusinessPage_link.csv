@@ -1,0 +1,6 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,find a farm agent,https://uat.farmagentfinder.com/home/index,Farm Agent Finder - Nationwide Agribusiness,DirectLink
+master,Get a quote,https://uat.nationwide.com/,Insurance and Financial Services Company – Nationwide,DirectLink
+master,Financial products,https://uat.nationwide.com/business/agribusiness/farm-insurance/ag-financial/family-solutions/,Protect your farm family with solutions from Nationwide,NormalizeTextLink
+master,Farm succession planning,https://uat.nationwide.com/business/agribusiness/farm-insurance/ag-financial/,Financial and legacy planning for farmers and ranchers,NormalizeTextLink
+master,find a specialist,https://uat.nationwide.com/d2c/agspecialists,Get help navigating life insurance — Nationwide,DirectLink

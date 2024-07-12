@@ -1,0 +1,9 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Log in to Agent Center,https://agentcenter.nationwide.com/WorkspaceAC/login?redirectUri=https://identity.nationwide.com/idp/H9iOvD6zl6/resumeSAML20/idp/SSO.ping&tsms=1719508879288,Agent Center Login,DirectLink
+master,Get a quote for a new vehicle,https://policyservicing.nationwide.com/#/quick/login/add-vehicle,Personal Policy | Nationwide Online,DirectLink
+master,Pay your personal bill,https://myservicing.nationwide.com/#/personal/quickpay/search,Pay Your Bill Online with Quick Pay – Nationwide,DirectLink
+master,View or print auto ID card,https://policyservicing.nationwide.com/#/qid/search,Personal Policy | Nationwide Online,DirectLink
+master,File a claim,https://uat.nationwide.com/insurance-claims/,File an Insurance Claim Online – Nationwide,DirectLink
+master,Watch self-help videos,https://uat.nationwide.com/personal/insurance/member-resources/online-access/,Online Insurance Account Access – Nationwide,DirectLink
+master,Track a claim,https://claimsselfservice.nationwide.com/claims/index.html#/express-login,Track Your Claim,DirectLink
+master,Pay your business bill,https://commercialservicing.nationwide.com/commercial/#/quickPay/search,Commercial Self Service,DirectLink

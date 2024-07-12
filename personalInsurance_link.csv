@@ -1,0 +1,3 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Auto,https://uat.nationwide.com/personal/insurance/auto/,Car Insurance - Get a Free Auto Insurance Quote – Nationwide,DirectLink3
+master,On Your Side® Review,https://uat.nationwide.com/personal/insurance/policy-reviews/,On Your Side Review – Nationwide,ContainsTextLink

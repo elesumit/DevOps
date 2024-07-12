@@ -1,0 +1,16 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Sign up for an online account,https://www.nationwide.com/personal/member-services/sign-up,Account Login - Personal and Business - Nationwide,DirectLink
+master,Sign up for an online account,https://www.nationwide.com/personal/member-services/sign-up,Sign Up for Online Account Access – Nationwide,DirectLink2
+master,Public Employee Retirement (Deferred Compensation),https://uat.nationwide.com/personal/investing/retirement-plans/457/find-your-plan/,Deferred Compensation Plans by State – Nationwide ,DirectLink
+master,Plan Sponsors - Pensions/401(k) plans,https://myplan.nwservicecenter.com/iApp/isc/cmd/Login?_ga=2.117190982.1731350872.1718336327-1378945627.1718336327&_gl=1*1gly4pq*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODM4Mzk0MS40LjEuMTcxODM4NDMzMy42MC4wLjA.,Investor Service Center - Login for Plan Sponsors,DirectLink
+master,Mutual Funds,https://uat.secureaccountview.com/BFWeb/clients/nationwide/index,Nationwide Funds - Log In,DirectLink
+master,Smart Credit,https://smartcredit.supernovacompanies.com/auth/login,product-title,DirectLink
+master,Pension Administrator,https://pas.nwservicecenter.com/iApp/pas/welcome.action?_ga=2.142767349.1731350872.1718336327-1378945627.1718336327&_gl=1*hogq5*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODM4Mzk0MS40LjEuMTcxODM4NTkxNC41NS4wLjA.,Plan Administration Services,DirectLink
+master,Agribusiness,https://agportal.nationwideagribusiness.com/ag/insurance/customers/login?_gl=1*s6vw3s*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODM4Mzk0MS40LjEuMTcxODM4NjAwMy41NC4wLjA.,Nationwide Commercial Agribusiness Online Access,DirectLink
+master,Pay your personal insurance bill,https://myservicing.nationwide.com/#/personal/quickpay/search,Pay Your Bill Online with Quick Pay – Nationwide,GParentLink
+master,File a claim,https://uat.nationwide.com/insurance-claims/,File an Insurance Claim Online – Nationwide,GParentLink
+master,Get auto ID card,https://policyservicing.nationwide.com/#/qid/search,Personal Policy | Nationwide Online,GParentLink
+master,Watch self-help videos,https://uat.nationwide.com/personal/insurance/member-resources/online-access/,Online Insurance Account Access – Nationwide,GParentLink
+master,Pay your commercial insurance bill,https://commercialservicing.nationwide.com/commercial/#/quickPay/search,Commercial Self Service,GParentLink
+master,Track a claim,https://claimsselfservice.nationwide.com/claims/index.html#/express-login,Track Your Claim,GParentLink
+master,Get a quote for a new vehicle,https://policyservicing.nationwide.com/#/quick/login/add-vehicle,Personal Policy | Nationwide Online,GParentLink

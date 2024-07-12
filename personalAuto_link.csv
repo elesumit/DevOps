@@ -1,0 +1,10 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Continue a saved quote »,https://uat.nationwide.com/,Insurance and Financial Services Company – Nationwide,DirectLink2
+master,Preparing for an auto quote »,https://uat.nationwide.com/lc/resources/auto-insurance/articles/what-you-need-for-a-quote,What You Need for a Car Insurance Quote – Nationwide ,DirectLink
+master,SmartRide®,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/,SmartRide – Nationwide,DirectLink
+master,SmartMiles®,https://uat.nationwide.com/personal/insurance/auto/discounts/smartmiles/,Pay-Per-Mile Car Insurance with SmartMiles - Nationwide,DirectLink
+master,master,Standard & optional coverages,https://uat.nationwide.com/personal/insurance/auto/coverages/,Full Coverage Insurance – Nationwide,DirectLink
+master,Get Accident Forgiveness,https://uat.nationwide.com/personal/insurance/auto/coverages/types/accident-forgiveness,Accident Forgiveness – Nationwide,DirectLink
+master,See how you can save,https://uat.nationwide.com/personal/insurance/auto/discounts/,Affordable Car Insurance & Discounts from Nationwide,DirectLink
+master,SmartRide,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/,SmartRide – Nationwide,ContainsTextLink
+master,SmartMiles,https://uat.nationwide.com/personal/insurance/auto/discounts/smartmiles/,Pay-Per-Mile Car Insurance with SmartMiles - Nationwide,ContainsTextLink

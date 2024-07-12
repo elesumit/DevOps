@@ -1,0 +1,5 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Pay now,https://myservicing.nationwide.com/#/personal/quickpay/search,Pay Your Bill Online with Quick Pay – Nationwide,DirectLink
+master,Learn more,https://uat.nationwide.com/personal/member-services/pay-bill,Pay Personal Insurance Bills Online  – Nationwide,DirectLink
+master,Pay now,https://commercialservicing.nationwide.com/commercial/#/quickPay/search,Commercial Self Service,DirectLink2
+master,Learn more,https://uat.nationwide.com/business/pay-bill,Pay Your Nationwide Commercial Bills – Nationwide,DirectLink2

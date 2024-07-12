@@ -1,0 +1,10 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Get help online,https://nationwide.rsahelp.com/,Nationwide,DirectLink
+master,Text us,https://uat.nationwide.com/personal/about-us/text-message-notifications,Text Messaging Program – Nationwide,DirectLink
+master,Call us,https://uat.nationwide.com/personal/contact/call-us/,Contact Nationwide: Phone Numbers - Nationwide,DirectLink19
+master,Email us,https://uat.nationwide.com/personal/contact/online-form,Nationwide - Contact Us Online,DirectLink
+master,feedback or a complaint,https://uat.nationwide.com/personal/about-us/customer-advocate/,Customer Relations – Nationwide,DirectLink
+master,Connect with us,https://uat.nationwide.com/personal/contact/third-party/,Third-party Policy Inquiries - Nationwide,DirectLink
+master,master,Explore,https://uat.nationwide.com/personal/about-us/nationwide-sponsorships/,Nonprofit sponsorships and Events – Nationwide,DirectLink
+master,Learn more,https://uat.nationwide.com/personal/about-us/procurement/,Procurement – Nationwide,DirectLink
+master,email us,https://uat.nationwide.com/personal/contact/online-form,Nationwide - Contact Us Online,DirectLink

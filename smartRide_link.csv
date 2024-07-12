@@ -1,0 +1,8 @@
+specName,linkText,expectedURL,expectedTitle,condition
+master,Get a quote,https://uat.nationwide.com/,Insurance and Financial Services Company – Nationwide,ParentLink
+master,your agent,https://agency.nationwide.com/,Find Independent Insurance Companies Near You - Nationwide,ParentLink
+master,Miles driven,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/videos/miles,Measuring Mileage for SmartRide Discounts – Nationwide,ContainsTextLink
+master,Hard braking & acceleration,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/videos/braking,Hard Braking with SmartRide – Nationwide,ContainsTextLink
+master,Idle time,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/videos/idle,Idle Time With SmartRide – Nationwide,ContainsTextLink
+master,Nighttime driving,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/videos/night,SmartRide at Night – Nationwide,ContainsTextLink
+master,Learn more,https://uat.nationwide.com/personal/insurance/auto/discounts/smartride/videos/connect,SmartRide Connected Car Video – Nationwide,DirectLink
